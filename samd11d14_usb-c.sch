@@ -462,7 +462,7 @@ F 1 "LED_Small" V 4295 5898 50  0000 L CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4250 5800 50  0001 C CNN
 F 3 "~" V 4250 5800 50  0001 C CNN
 	1    4250 5800
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R106
