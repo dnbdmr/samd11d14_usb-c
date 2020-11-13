@@ -1012,7 +1012,7 @@
   (gr_text 30 (at 120.976 96.56) (layer F.SilkS) (tstamp 5FAEA709)
     (effects (font (size 1.524 1.27) (thickness 0.254)))
   )
-  (gr_text 34 (at 120.976 94.02) (layer F.SilkS) (tstamp 5FAEA6DC)
+  (gr_text 31 (at 120.976 94.02) (layer F.SilkS) (tstamp 5FAEA6DC)
     (effects (font (size 1.524 1.27) (thickness 0.254)))
   )
   (gr_text EN (at 111.38916 118.1862) (layer F.SilkS) (tstamp 5FAEA604)
