@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SAMD11D14 Breakout with USB-C"
-Date "2020-06-18"
-Rev "A"
+Date "2020-11-13"
+Rev "B"
 Comp "DNBDMR"
 Comment1 ""
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:AP2127K-3.3 U101
+L samd11d14_usb-c-rescue:AP2127K-3.3-Regulator_Linear U101
 U 1 1 5F023B6D
 P 5300 2200
 F 0 "U101" H 5300 2542 50  0000 C CNN
@@ -193,11 +193,11 @@ Wire Wire Line
 Wire Wire Line
 	1900 3100 2200 3100
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J101
+L samd11d14_usb-c-rescue:USB_C_Receptacle_USB2.0-Connector J101
 U 1 1 5F022F01
 P 2200 2200
 F 0 "J101" H 2307 3067 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 2307 2976 50  0000 C CNN
+F 1 "USB4085-GF-A " H 2307 2976 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 2350 2200 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2350 2200 50  0001 C CNN
 	1    2200 2200
@@ -368,13 +368,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x12_Male J103
 U 1 1 5EE29908
-P 6200 4950
-F 0 "J103" H 6308 5631 50  0000 C CNN
-F 1 "Conn_01x12_Male" H 6308 5540 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6200 4950 50  0001 C CNN
-F 3 "~" H 6200 4950 50  0001 C CNN
-	1    6200 4950
-	1    0    0    -1  
+P 6200 5050
+F 0 "J103" H 6308 5731 50  0000 C CNN
+F 1 "Conn_01x12_Male" H 6308 5640 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 6200 5050 50  0001 C CNN
+F 3 "~" H 6200 5050 50  0001 C CNN
+	1    6200 5050
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+5V #PWR0109
@@ -519,7 +519,7 @@ L Switch:SW_Push SW101
 U 1 1 5EE70493
 P 1450 4700
 F 0 "SW101" V 1404 4848 50  0000 L CNN
-F 1 "SW_Push" V 1495 4848 50  0000 L CNN
+F 1 "EG5353CT-ND" V 1495 4848 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_TL3305A" H 1450 4900 50  0001 C CNN
 F 3 "~" H 1450 4900 50  0001 C CNN
 	1    1450 4700

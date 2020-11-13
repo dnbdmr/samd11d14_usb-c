@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.6+dfsg1-1~bpo10+1"
+      "Version":     "5.1.8+dfsg1-1~bpo10+1"
     },
-    "CreationDate":  "2020-06-11T12:11:48-07:00"
+    "CreationDate":  "2020-11-13T08:11:59-08:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "samd11d14_usb-c",
       "GUID": "73616d64-3131-4643-9134-5f7573622d63",
-      "Revision": "rev?"
+      "Revision": "B"
     },
     "Size":
     {
-      "X": 18.846,
-      "Y": 31.546
+      "X": 15.798,
+      "Y": 31.038
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -29,12 +29,12 @@
   [
     {
       "Layers": "Outer",
-      "PadToPad":  0.152,
-      "PadToTrack":  0.152,
+      "PadToPad":  0.025,
+      "PadToTrack":  0.025,
       "TrackToTrack":  0.152,
       "MinLineWidth":  0.152,
-      "TrackToRegion":  0.500,
-      "RegionToRegion":  0.500
+      "TrackToRegion":  0.254,
+      "RegionToRegion":  0.254
     }
   ],
   "FilesAttributes":
